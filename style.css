@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "General sans";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    
+}
+#page1{
+ height: 100vh;
+ width: 100%;
+ /* position: absolute; */
+ background-color: black;
+ color: rgb(163,163,163);
+
+}
+#nav{
+    margin: 35px 30px;
+    display: flex;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 18px;
+    justify-content: space-between;
+}
+#heading{
+    margin-top: 40px;
+}
+
+#heading h1{
+    margin-left: 35px;
+    line-height: 1;
+    font-family: "General Sans Medium";
+    font-size: 10vw;
+    font-weight: 900;
+    opacity: 0.4;
+}
+
+#sechead{
+    color: red;
+    display: inline-block;
+
+    margin-left: 20%;
+
+}
