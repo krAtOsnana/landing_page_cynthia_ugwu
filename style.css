@@ -11,7 +11,7 @@ html,body{
 }
 #main{
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 #page1{
  height: 100vh;
@@ -82,10 +82,39 @@ html,body{
     /* margin-bottom: 100px; */
  }
  #page2{
-    /* position: absolute; */
+    padding-top: 200px;
     height: 100vh;
     width: 100%;
+    padding-right: 10vw;
+    padding-left:2.5vw ;
+    color: rgb(163,163,163);
+    
  }
  .elem{
     width: 100%;
+    position: relative;
+    /* height: 30vh; */
+    border-top:1.0px solid #777;
+   padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .elem h1{
+    font-size: 7.5vw;
+    /* padding: 15px 5px; */
+ }
+ #elemlast{
+    border-bottom:1.0px solid #777 ;
+ }
+ .elem h5{
+    /* margin-top: 5%; */
+    font-size: 15px;
+    font-weight: 600;
+ }
+ .elem img{
+    position: absolute;
+    height: 140%;
+    z-index: 99;
+    display: none;
  }
