@@ -35,6 +35,8 @@ window.addEventListener("mousemove",function(dets){
 
      },100)
 })
+
+
  function pageOneAnimation(){
     var tl=gsap.timeline()
 
@@ -62,4 +64,15 @@ window.addEventListener("mousemove",function(dets){
     })
  }
 
- pageOneAnimation()
+ pageOneAnimation() 
+
+
+ //page2 animation
+ 
+
+document.querySelectorAll(".elem").
+forEach(function(elem){
+   elem . addEventListener("mousemove",function(dets){
+    
+    })
+})
